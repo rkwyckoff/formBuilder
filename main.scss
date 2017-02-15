@@ -17,7 +17,8 @@
       width: 537px;
       height: 67px;
       border-bottom: 1px lightgrey solid;
-      border-radius: top .5em;
+      border-top-left-radius: .25em;
+      border-top-right-radius: .25em;
       text-align: left;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -44,7 +45,7 @@
       background: rgba(3, 169, 244, 0.25)
     }
 
-    .submit {
+    .submit-form {
       color: blue;
       border:1px lightgrey solid;
       float: left;
