@@ -4,4 +4,4 @@ FormBuilder Project:
 3) One input included drop-down box and one used text area box for comments
 4)built Javascript functions to pull data and build input boxes via for loops and
 if statement
-5)Available at: https://rkwyckoff.github.io/etsy2/
+5)Available at: https://rkwyckoff.github.io/formBuilder/.
