@@ -23,7 +23,7 @@
         } else {
             var html = `
             <div>
-            <input class="text" placeholder="${<i class="fa fa-user" aria-hidden="true"></ifield.label}"/>
+            <input class="text" placeholder="${field.label}"/>
             </div>
             `;
         }
