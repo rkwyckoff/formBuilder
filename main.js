@@ -18,11 +18,20 @@
              ${options}
            </select>
             `;
+            //debugger;
+      } else if (field.type === "textarea") {
 
+        var html = `
+        <div>
+          <i class="fa ${field.icon}" aria-hidden="true"></i>
+          <input class="textarea" placeholder="${field.label}"/>
 
-        } else {
+        </div>
+        `;
+      }    else {
             var html = `
             <div>
+            <i class="fa ${field.icon}" aria-hidden="true"></i>
             <input class="text" placeholder="${field.label}"/>
             </div>
             `;

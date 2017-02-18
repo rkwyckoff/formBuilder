@@ -10,7 +10,7 @@
       border: 2px solid lightgrey;
       margin: 20px auto;
       border-radius: .5em;
-
+}
 
     .title {
       font-size: 25px;
@@ -38,20 +38,26 @@
       width: 540px;
 
     }
+    i {
+      color: grey;
+    //  position: relative;
+    }
     .text {
       width: 93%;
       height: 40px;
       border: 1px solid lightgrey;
       margin: 8px 15px;
-      padding-left: 10px;
+      padding-left: 34px;
       border-radius: .25em;
+    //  position: absolute;
+    //  overflow: visible;
     }
     .select {
       width: 93%;
       height: 40px;
       border: 1px solid lightgrey;
       margin: 8px 15px;
-      padding-left: 10px;
+
 
       .language {
         width: 15px;
@@ -59,6 +65,15 @@
         float:right;
       }
 
+    }
+    .textarea {
+      width: 93%;
+      height: 80px;
+      border: 1px solid lightgrey;
+      margin: 8px 15px;
+      padding-left: 20px;
+      border-radius: .25em;
+      // padding-bottom: 33px;
     }
 
     .submit-footer {
@@ -82,4 +97,12 @@
       margin-top: 20px;
 
     }
+  
+
+  input.text {
+
+
+  //display: inline;
+  //float: left;
+    //padding-left: 20px;
   }
