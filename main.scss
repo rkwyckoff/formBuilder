@@ -23,7 +23,8 @@
       padding-top: 10px;
       padding-bottom: 10px;
       color: white;
-      background:rgba(0, 132, 255, 0.81);
+      background:rgb(47, 134, 207);
+      margin-bottom: 20px;
     }
 
     h4{
@@ -37,12 +38,34 @@
       width: 540px;
 
     }
+    .text {
+      width: 93%;
+      height: 40px;
+      border: 1px solid lightgrey;
+      margin: 8px 15px;
+      padding-left: 10px;
+      border-radius: .25em;
+    }
+    .select {
+      width: 93%;
+      height: 40px;
+      border: 1px solid lightgrey;
+      margin: 8px 15px;
+      padding-left: 10px;
+
+      .language {
+        width: 15px;
+        height: 40px;
+        float:right;
+      }
+
+    }
 
     .submit-footer {
       height: 75px;
       width:537px;
       border-top: 1px lightgrey solid;
-      background: rgba(3, 169, 244, 0.25)
+      background: rgb(197, 222, 242)
     }
 
     .submit-form {
@@ -50,7 +73,7 @@
       border:1px lightgrey solid;
       float: left;
       clear:both;
-      background: rgba(0, 132, 255, 0.81);
+      background:rgb(47, 134, 207);
       color: white;
       font-size: 14px;
       padding: 8px 8px 8px 8px;

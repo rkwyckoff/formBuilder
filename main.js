@@ -7,39 +7,45 @@
 }
 
  function fillHtml (data) {
-  //debugger;
+
     for (var i = 0; i < data.length; i++) {
-    var field = data[i];
-        if (field.type === "select") {
-            var html = selectHtml(field);
-    }     else {
+      var field = data[i];
+      if (field.type === "select") {
+
+       var options = selectHtml(field);
+       var html = `
+           <select class="select">
+             ${options}
+           </select>
+            `;
+
+
+        } else {
             var html = `
             <div>
-            <input placeholder="${field.label}"/>
+            <input class="text" placeholder="${<i class="fa fa-user" aria-hidden="true"></ifield.label}"/>
             </div>
             `;
-          }
+        }
         $('.forms-container').append(html);
+    }
   }
-}
+
 
 getData(fillHtml);
 
-debugger;
+
 
 function selectHtml (field) {
-  var selectHtml = "";
+  var selectHtml = `<option>${field.label}</option>`;
 // generate optionsHtml with a loop
-for (var count = 0; count < 5; count++) {
+  for (var count = 0; count < field.options.length; count++) {
+    selectHtml +=
+            `
 
-selectHtml += `<div class="selectLanguage">
-        <input placeholder="${field.label}"</input>
-        <select name="select">
-        <option value="language">${field.options[count].label}</option>
-        </select>
-        </div>`;
+            <option class="language">${field.options[count].label}</option>
 
-
-}
-return selectHtml;
+          `;
+  }
+  return selectHtml;
 }
