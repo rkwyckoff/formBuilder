@@ -48,35 +48,6 @@ i {
   border-radius: .25em;
   padding-left: 30px; }
 
-.text {
-  width: 93%;
-  height: 40px;
-  border: 1px solid lightgrey;
-  margin: 0px 15px;
-  padding-left: 34px; }
-
-.select {
-  width: 93%;
-  height: 40px;
-  border: 1px solid lightgrey;
-  padding-left: 34px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 17px;
-  margin-bottom: 2px; }
-  .select .language {
-    width: 15px;
-    height: 40px;
-    float: right; }
-
-.textarea {
-  width: 93%;
-  height: 70px;
-  border: 1px solid lightgrey;
-  margin: 0px 15px;
-  padding-left: 34px;
-  border-radius: .25em; }
-
 .submit-footer {
   height: 75px;
   width: 537px;

@@ -54,7 +54,7 @@ function selectHtml (field) {
     selectHtml +=
             `
 
-            <option class="language">${field.options[count].label}</option>
+            <option>${field.options[count].label}</option>
 
           `;
   }
