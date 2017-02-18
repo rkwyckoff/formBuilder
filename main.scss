@@ -36,22 +36,32 @@
     .forms-container {
       height: 510px;
       width: 540px;
-
     }
+
     i {
       color: grey;
-    //  position: relative;
+      position: absolute;
+      left: 25px;
+      top:11px;
     }
+
+    .form-field {
+      width: 93%;
+      height: 40px;
+      border: 1px solid lightgrey;
+      margin: 0px 15px;
+      border-radius: .25em;
+      padding-left: 30px;
+    }
+
     .text {
       width: 93%;
       height: 40px;
       border: 1px solid lightgrey;
       margin: 0px 15px;
       padding-left: 34px;
-      border-radius: .25em;
-    //  position: absolute;
-    //  overflow: visible;
     }
+
     .select {
       width: 93%;
       height: 40px;
@@ -99,6 +109,12 @@
       border-radius: .25em;
       margin-left: 15px;
       margin-top: 20px;
+
+    }
+
+    .forms-container div {
+      position: relative;
+      margin: 17px;
 
     }
 

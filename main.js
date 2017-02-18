@@ -1,6 +1,6 @@
  function getData (callback) {
     $.ajax({
-     url: `http://json-data.herokuapp.com/forms`,
+     url: `https://json-data.herokuapp.com/forms`,
      dataType: "json",
      success: callback
   });
@@ -14,9 +14,11 @@
 
        var options = selectHtml(field);
        var html = `
-           <select class="select">
+          <div>
+           <select class="form-field">
              ${options}
            </select>
+           </div>
             `;
             //debugger;
       } else if (field.type === "textarea") {
@@ -24,7 +26,7 @@
         var html = `
         <div>
           <i class="fa ${field.icon}" aria-hidden="true"></i>
-          <input class="textarea" placeholder="${field.label}"/>
+          <textarea class="form-field" placeholder="${field.label}"></textarea>
 
         </div>
         `;
@@ -32,7 +34,7 @@
             var html = `
             <div>
             <i class="fa ${field.icon}" aria-hidden="true"></i>
-            <input class="text" placeholder="${field.label}"/>
+            <input class="form-field" placeholder="${field.label}"/>
             </div>
             `;
         }
