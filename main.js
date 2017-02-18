@@ -26,7 +26,7 @@
         var html = `
         <div>
           <i class="fa ${field.icon}" aria-hidden="true"></i>
-          <textarea class="form-field" placeholder="${field.label}"></textarea>
+          <textarea class="form-field tall" placeholder="${field.label}"></textarea>
 
         </div>
         `;

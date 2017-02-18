@@ -48,6 +48,10 @@ i {
   border-radius: .25em;
   padding-left: 30px; }
 
+.tall {
+  height: 80px;
+  padding-top: 12px; }
+
 .submit-footer {
   height: 75px;
   width: 537px;
